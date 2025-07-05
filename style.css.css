@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1e8e8;
+    text-align: center;
+}
+
+header{
+    background-color: #5C3FEB;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border-bottom: solid;
+}
+
+
+.logo {
+    font-size: 12px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid;
+    border-radius: 0 50px 50px 50px;
+    margin: 10px 0 15px 10px;
+    padding: 15px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selfie {
+    width: 30%;
+    height: 50%;
+    border: solid 10px #5C3FEB;
+    border-radius: 100px;
+}
+
+.social-networks {
+    color: white;
+    text-decoration: none;
+    background-color: #5C3FEB;
+    width: 60%;
+    border: solid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.social-networks:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1% 8% 5% 8%;
+    padding: 2%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 40%;
+    height: 50%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+p {
+    margin: 1%;
+    padding: 1%;
+    font-size: 150%;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
+    margin: 5% 2% 5% 2%;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+h5 {
+    margin: 1% 0 1% 0;
+    font-size: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #5C3FEB;
+    width: 100%;
+    height: 70px;
+    color: white;
+    font-size: 34px;
+    border-top: solid;
+}
